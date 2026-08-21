@@ -1,6 +1,6 @@
 # NUS Application Essay Revision Skill (`nus-essay-revision`)
 
-Expert revision, editing, condensing, and polishing assistant tailored specifically for **National University of Singapore (NUS)** undergraduate and postgraduate application essays, short response questions, and scholarship prompts.
+Expert revision, editing, condensing, and polishing assistant tailored specifically for **National University of Singapore (NUS)** undergraduate and postgraduate application essays, short response questions, and scholarship prompts. Use cautiously as using AI for generating NUS essays is risky, you should always draft on your own before using any AI tools.
 
 ---
 
