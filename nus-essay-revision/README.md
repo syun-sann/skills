@@ -1,6 +1,7 @@
 # NUS Application Essay Revision Skill (`nus-essay-revision`)
 
-This skill is only for small tweaks of your essays regarding language style and task achievement tailored specifically for **National University of Singapore (NUS)** undergraduate short response questions
+This skill is only for small tweaks of your essays regarding language style and task achievement tailored specifically for **National University of Singapore (NUS)** undergraduate short response questions.
+
 Use cautiously as using AI for generating NUS essays is risky, you should always draft on your own before using any AI tools.
 
 ---
