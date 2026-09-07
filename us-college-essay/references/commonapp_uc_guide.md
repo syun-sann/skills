@@ -86,3 +86,28 @@ This reference guide provides official criteria, verbatim prompts, word limits, 
 | **Narrative Architecture**| Conflict $\to$ Epiphany $\to$ Transformation | CAR: Context $\to$ Action $\to$ Result/Impact |
 | **Quotes & Dialogue**| Permissible when enhancing character arc | Strictly discouraged; wastes word limit |
 | **Core Evaluator Question**| *"Who is this person and how do they think?"* | *"What did this student specifically do and achieve?"* |
+
+---
+
+## Part 4: College-Specific Supplemental Essays Guide (大学附加文书小文书指南)
+
+除了 Common App 650 词主文书和加州大学（UC）8 选 4 的 PIQ 外，顶尖美本各校几乎均设有独立的 **Supplemental Essays（附加文书 / 小文书）**。修改此类文书批注时需把握以下核心维度：
+
+### 1. 常见题目分类与战略目标
+1. **"Why Us" / 为什么选择该大学 (100–300 words)**:
+   - **核心陷阱**：罗列学校排名、气候地理、官网上随手搜到的泛泛课程，把校名换掉依然通用。
+   - **破解之道**：挖掘特定教授实验室、独特跨学科培养计划（如 Brown Open Curriculum、Columbia Core）、特定社团组织，并将其与学生过往经历与未来学术规划无缝缝合。
+2. **"Why Major" / 学术与专业志向 (100–250 words)**:
+   - **核心陷阱**：从童年启蒙空泛抒情，缺乏实质研究或课程探索。
+   - **破解之道**：点出具体知识触发点（Epiphany）、独立探究过程（Projects/Papers/Readings）、对该专业未解问题的好奇，以及目标学校该专业的独特学术资源。
+3. **"Community & Contribution" / 社区与多元背景 (150–300 words)**:
+   - **核心陷阱**：假大空谈论“包容与多元”的概念，没有自身行为支撑。
+   - **破解之道**：定义属于自己的独特“微型社区”（Geographic, Cultural, Academic, or Interest-based），阐述自己在群体中解决过什么矛盾、带来过什么实质改变，并说明未来将如何为大学校园社群增色。
+4. **"Quirky / Short Prompts" / 趣味短问答 (35–150 words / 几个词)**:
+   - 常见于 UChicago（奇葩大文书）、Stanford、Yale、Princeton、Columbia（书单/活动短清单）。
+   - **要诀**：高度展现个性、智识幽默感与真实审美趣味，严禁说教与迎合，字数极紧凑，直切本质。
+
+### 2. 附加文书批注修改的核心原则
+* **与主文书互补（Profile Diversity）**：小文书绝不是主文书的缩写版或同质素材复述，必须向招生官揭示全新的一面。
+* **字数硬约束（Strict Ceilings）**：小文书字符/词数上限通常非常严格（如 100 词、250 词），必须实施极限删繁就简，消灭无意义过渡词。
+* **批注 Proposal 谨慎核实**：批注中若建议“比如写某某教授的课题组”，极可能是顾问举例，必须先向学生追问是否真感兴趣或有相关背景储备。
