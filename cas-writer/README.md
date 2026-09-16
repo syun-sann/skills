@@ -2,14 +2,28 @@
 
 A specialized skill for the International Baccalaureate (IB) Diploma Programme that generates, structures, and polishes authentic, high-scoring CAS (Creativity, Activity, Service) activity entries and in-depth reflections.
 
-The skill accepts user input in either Mandarin (Chinese) or English (including rough bullet points, voice transcription notes, or conversational drafts) and consistently produces polished, standard English outputs suitable for ManageBac and school coordinator reviews.
+The skill seamlessly accepts user input in either Mandarin (Chinese) or English (including rough bullet points, voice transcription notes, or conversational drafts) and produces standard English outputs suitable for ManageBac and school coordinator reviews.
+
+---
+
+## Humanizer & Stop-Slop Integration
+
+This skill deeply integrates the anti-AI writing frameworks of **Humanizer** and **Stop-Slop** to ensure all generated reflections read like genuine, articulate 17-year-old student writing:
+
+1. **Zero Em-Dashes (`—`)**: Eliminates journalistic / sales-like em-dashes and replaces them with standard punctuation or restructured clauses.
+2. **No Binary Negation Contrasts**: Eliminates artificial pivots (*"It wasn't about X, it was about Y"*) in favor of direct, honest statements.
+3. **No Manufactured Aphorisms**: Cuts pull-quote slogans (*"athletic progress is an interdependent ecosystem"*) in favor of tangible operational habits and numbers.
+4. **No Filler Adverbs & Intensifiers**: Cuts `-ly` intensifiers (`genuinely`, `fundamentally`, `deeply`, `actually`, `truly`, `acutely`).
+5. **No Inanimate False Agency**: Ensures human actors (I, we, our coach) drive every sentence rather than abstract concepts (*"the session taught me"*).
+6. **No Dangling `-ing` Participle Tails**: Removes superficial participle clauses tacked onto sentence endings.
+7. **Rhythmic Variety & Concrete Micro-Details**: Pairs varied sentence lengths with physical, procedural, and sensory specifics.
 
 ---
 
 ## How to Use
 
 ### 1. Basic Invocation
-You can trigger this skill at any time by mentioning CAS, CAS reflections, CAS logs, ManageBac, or specific CAS activities in your prompt.
+Trigger this skill at any time by mentioning CAS reflections, CAS logs, ManageBac, or specific CAS activities in your prompt.
 
 ### 2. Input Formats Supported
 You do not need to format your raw notes in any special way. You can provide:
@@ -51,13 +65,8 @@ Every generation produces a complete 3-part package in Standard English:
 
 ---
 
-## Core Capabilities
+## The 7 IB CAS Learning Outcomes (LO 1 to 7)
 
-### 1. Dual-Language Input with Standard English Output
-- Accepts prompts in simplified Chinese, traditional Chinese, English, or mixed bilingual formats.
-- Always generates articulate, natural, and standard English outputs tailored to the voice of a 16–18 year old IB student.
-
-### 2. Grounded in IB Learning Outcomes (LO 1 to 7)
 The skill maps your experiences to the official IB CAS Learning Outcomes:
 - **LO 1**: Identify own strengths and develop areas for growth
 - **LO 2**: Demonstrate that challenges have been undertaken, developing new skills in the process
@@ -67,32 +76,17 @@ The skill maps your experiences to the official IB CAS Learning Outcomes:
 - **LO 6**: Demonstrate engagement with issues of global significance
 - **LO 7**: Recognize and consider the ethics of choices and actions
 
-### 3. Elimination of AI Slop and Empty Clichés
-Reflections are filtered against generic corporate buzzwords and ungrounded hyperbole (such as *“a testament to”*, *“rich tapestry”*, *“game-changer”*, *“delve into”*, *“beacon of hope”*, *“awesome”*, or *“life-changing”*). The voice remains grounded in concrete, sensory, and procedural micro-details.
-
-### 4. No Fact Fabrication
-The skill never invents key events, actions, or emotions. If provided notes are brief, it logically infers realistic operational context and clearly marks them as `[Inferred detail: ...]` for your review.
-
 ---
 
 ## Directory Structure
 
 ```
 cas-writer/
-├── SKILL.md                               # Main agent instructions and workflow rules
-├── README.md                              # User guide and quick start instructions
+├── SKILL.md                               # Main agent instructions, core principles, and pre-flight checks
+├── README.md                              # User guide and anti-slop principles
 └── references/
+    ├── writing_style_and_vocabulary.md    # Comprehensive guide on authentic voice, stop-slop rules, and LO formulas
+    ├── exemplars.md                       # High-scoring full exemplars for Creativity, Activity, Service, and CAS Projects
     ├── learning_outcomes_guide.md         # Full criteria, rubrics, and phrasing formulas for LO 1–7
-    ├── reflection_frameworks.md           # 5 CAS Stages, Gibbs Cycle, Rolfe Model, and Kolb Cycle
-    ├── writing_style_and_vocabulary.md    # Authentic student voice guide, banned slop list, and vocabulary
-    └── exemplars.md                       # High-scoring full exemplars for Creativity, Activity, Service, and CAS Projects
+    └── reflection_frameworks.md           # 5 CAS Stages, Gibbs Cycle, Rolfe Model, and Kolb Cycle
 ```
-
----
-
-## Reference Guides
-
-- **Learning Outcomes Guide** (`references/learning_outcomes_guide.md`): Detailed breakdown of each Learning Outcome with indicators of strong vs. weak evidence.
-- **Reflection Frameworks** (`references/reflection_frameworks.md`): Structural blueprints for single activity logs, significant milestones, and multi-stage collaborative CAS Projects.
-- **Writing Style and Vocabulary** (`references/writing_style_and_vocabulary.md`): Guidance on maintaining an authentic student voice while avoiding artificial AI prose.
-- **Exemplars** (`references/exemplars.md`): Complete benchmark submissions across all strands.

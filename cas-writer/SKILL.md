@@ -1,24 +1,28 @@
 ---
 name: cas-writer
-description: Generates, structures, and polishes authentic, high-scoring IB CAS (Creativity, Activity, Service) experience entries and deep reflections. Seamlessly accepts user input in either Mandarin (中文) or English (including rough notes, bullet points, or voice transcription drafts) and always produces standard, articulate, and natural English outputs. Grounded in official IB CAS guidelines, Gibbs' and Kolb's reflective cycles, and the 7 CAS Learning Outcomes. Use this skill whenever the user mentions CAS reflections, CAS experiences, CAS logs, IB CAS, ManageBac reflections, Creativity Activity Service, 写CAS, CAS反思, or wants to draft, level-up, or format CAS portfolio entries.
+description: Generates, structures, and polishes authentic, high-scoring IB CAS (Creativity, Activity, Service) experience entries and deep reflections. Seamlessly accepts user input in either Mandarin (中文) or English (including rough notes, bullet points, or voice transcription drafts) and always produces standard, articulate, and natural English outputs. Grounded in official IB CAS guidelines, Gibbs' and Kolb's reflective cycles, and the 7 CAS Learning Outcomes. Integrated with humanizer and stop-slop anti-AI principles to eliminate robotic patterns, em dashes, binary contrasts, and manufactured profundity. Use this skill whenever the user mentions CAS reflections, CAS experiences, CAS logs, IB CAS, ManageBac reflections, Creativity Activity Service, 写CAS, CAS反思, or wants to draft, level-up, or format CAS portfolio entries.
 ---
 
 # IB CAS Experience & Reflection Generator (cas-writer)
 
-This skill transforms raw activity notes into high-scoring, authentic, and reflective **IB CAS (Creativity, Activity, Service)** portfolio submissions for ManageBac and school coordinators.
+This skill transforms raw activity notes into high-scoring, authentic, and deeply reflective **IB CAS (Creativity, Activity, Service)** portfolio submissions for ManageBac and school coordinators.
 
-The generated output is **always in Standard English**, written from the perspective of an articulate, self-aware 16–18 year old IB Diploma Programme student. It accepts input in **Mandarin (simplified/traditional Chinese), English, or bilingual mixed notes**.
+The generated output is **always in Standard English**, written from the perspective of an articulate, observant 16–18 year old IB Diploma Programme student. It accepts input in **Mandarin (simplified/traditional Chinese), English, or bilingual mixed notes**.
 
 ---
 
-## Core Principles & Tone Guidelines
+## Core Humanized Principles (Anti-Slop & Humanizer Integration)
 
-1. **Authentic Student Voice**: Sounds like a thoughtful, candid, and articulate 17-year-old high school student—neither a corporate PR manager nor an AI textbook bot.
-2. **Show, Don't Tell (Sensory Micro-Details)**: Replaces hollow summaries with tangible, visual, and operational moments (e.g., *"fumbling with the HDMI adapter 5 minutes before the workshop began"* rather than *"faced logistical challenges"*).
-3. **Honest Vulnerability & Growth Arc**: Emphasizes genuine hurdles, hesitation, awkwardness, fatigue, or mistakes, followed by cognitive recalibration and tangible adaptation. Zero fake perfection.
-4. **Targeted Learning Outcomes (LO 1–7)**: Explicitly weaves 1–2 (maximum 3) relevant CAS Learning Outcomes into the reflection narrative, substantiated by concrete situational evidence.
-5. **Strict Anti-Slop & Cliché Filter**: Prohibits empty buzzwords (*"testament to"*, *"rich tapestry"*, *"delve into"*, *"beacon of hope"*, *"unwavering commitment"*, *"game-changer"*, *"awesome"*, *"life-changing"*).
-6. **No Fact Fabrication**: Never invents unmentioned core events. When user notes are sparse, plausibly contextualize realistic operational details and clearly annotate them with `[Inferred detail: ...]` for user confirmation.
+To guarantee that reflections read like genuine student writing rather than synthetic AI prose, adhere strictly to these 8 writing principles:
+
+1. **Authentic Student Voice**: Write as an observant, candid 17-year-old student. Avoid corporate PR jargon, promotional brochures, and academic lecturer tones.
+2. **Zero Em-Dashes (`—`) or En-Dashes (`–`)**: Never use em-dashes or en-dashes in reflective text. Replace them with periods, commas, colons, parentheses, or restructure the sentence completely.
+3. **No Binary Contrasts ("Not X, but Y")**: Eliminate rhetorical setups like *"It was not about winning an argument, but about finding a solution"*, *"Not because of X, but Y"*, or *"Rather than X, we Y"*. State the direct action or choice immediately.
+4. **No Pseudo-Profound Aphorisms & Quotables**: Prohibit fortune-cookie slogans (*"reliability is not an emotion, but a practice"*, *"athletic progress is an interdependent ecosystem"*). Describe concrete observations, feelings, and behavioral adjustments instead.
+5. **Kill All Adverbs & Empty Intensifiers**: Remove `-ly` intensifiers and hedges (`genuinely`, `fundamentally`, `deeply`, `actually`, `truly`, `acutely`, `staggeringly`, `painfully`, `literally`, `simply`, `crucially`, `inherently`).
+6. **No Inanimate False Agency**: Sentences must feature a human subject (I, we, our coach, the supervisor) taking action. Never write *"the run served as a stark reminder"*, *"the challenge taught me"*, or *"the data told us"*.
+7. **No Dangling `-ing` Participle Tails**: Eliminate trailing participial phrases tacked onto sentence endings to manufacture shallow depth (*", highlighting the importance of..."*, *", prompting me to..."*, *", fostering a sense of..."*).
+8. **Varied Sentence Rhythm & Show, Don't Tell**: Alternate short punchy sentences with longer descriptive sentences. Avoid repetitive lengths and forced groups of three. Replace abstract claims with physical, procedural, and sensory micro-details (e.g., *a loose HDMI cable 5 minutes before presentation*, *a split pace dropping from 5:10/km to 6:25/km*).
 
 ---
 
@@ -32,7 +36,8 @@ graph TD
     D --> E["Part 1: CAS Activity Entry (100–180 words)"]
     D --> F["Part 2: Deep CAS Reflection (200–350 words)"]
     D --> G["Part 3: Portfolio Evidence & Next Step Prompts"]
-    E & F & G --> H["Optional User Refinement & Iteration"]
+    E & F & G --> H["Pre-Flight Anti-Slop & Humanizer Check"]
+    H --> I["Deliver Human-Like Output to User"]
 ```
 
 ---
@@ -45,7 +50,7 @@ For every CAS experience, generate the following complete 3-part package in Stan
 ### Part 1: CAS Activity Entry (ManageBac Overview)
 * **Activity Title**: [Crisp, descriptive title]
 * **Strand**: [Creativity / Activity / Service / CAS Project]
-* **Timeline / Frequency**: [e.g., Oct 14 – Oct 20, 2024 / 2.5 hours]
+* **Timeline / Frequency**: [e.g., Oct 14 - Oct 20, 2024 / 2.5 hours]
 * **Role / Responsibility**: [e.g., Lead Layout Designer / Individual Athlete / Volunteer Tutor]
 * **Summary of Actions**: [100–160 words detailing the specific operational actions, tools used, collaboration dynamics, and direct outputs achieved]
 * **Key Challenge & Solution**: [1–2 sentences on the primary obstacle encountered and how it was resolved]
@@ -54,17 +59,17 @@ For every CAS experience, generate the following complete 3-part package in Stan
 
 ### Part 2: In-Depth CAS Reflection (Journal Entry)
 [200–350 words structured organically following Gibbs' / Rolfe's reflective cycle:
-1. **Initial Context & Internal Motivation**: Why this activity mattered and initial expectations.
-2. **Vivid Defining Moment & Emotional Turning Point**: A concrete micro-moment capturing real struggle, awkwardness, fatigue, or friction.
-3. **Cognitive Shift & Learning Outcome Alignment**: Explicitly name 1–2 target Learning Outcomes (e.g., **LO 1: Identify strengths and areas for growth**) and justify with direct behavioral evidence.
-4. **Measurable Transformation & Forward-Looking Application**: What changed in skills, mindset, or collaborative habits, plus an honest counterfactual (*"If I were to do this again, I would..."*).]
+1. **Initial Context & Specific Goal**: What was planned and what initial expectations or assumptions existed.
+2. **Concrete Obstacle & Friction**: A specific micro-moment of technical difficulty, awkwardness, fatigue, or confusion.
+3. **Cognitive Shift & Learning Outcome Alignment**: Explicitly name 1–2 target Learning Outcomes (e.g., **LO 1: Identify strengths and areas for growth**) and substantiate with direct behavioral evidence.
+4. **Tangible Adjustment & Forward Habit**: The specific operational fix applied and how the approach changes for next time.]
 
 ---
 
 ### Part 3: Recommended Portfolio Evidence & Next Steps
-* **Suggested Evidence Artifacts**: [2–3 concrete items to upload to ManageBac, e.g., before/after draft photos, Strava GPS log screenshot, meeting minutes, code repository commit, supervisor note]
+* **Suggested Evidence Artifacts**: [2–3 concrete items to upload to ManageBac, e.g., draft comparison photos, Strava GPS log screenshot, meeting notes, code commit link, supervisor confirmation]
 * **Next Milestone / Follow-up**: [1 actionable next step for the upcoming session]
-* **Optional Polish Prompts**: [2 quick optional questions if the user wants to further customize specific personal details]
+* **Optional Polish Prompts**: [2 quick optional questions if the user wants to add further personal details]
 ```
 
 ---
@@ -87,6 +92,20 @@ When generating reflections, select and integrate the 1–2 most natural outcome
 
 ---
 
+## Pre-Flight Anti-Slop & Humanizer Checklist
+
+Before returning any reflection, run this silent internal check:
+
+- [ ] **Zero em/en-dashes**: Did any `—` or `–` slip in? Replace with commas, periods, or parentheses.
+- [ ] **Zero binary contrasts**: Did you write "Not X, but Y" or "Instead of X, we Y"? State the positive reality directly.
+- [ ] **Zero adverbs/intensifiers**: Cut words like `genuinely`, `fundamentally`, `deeply`, `actually`, `truly`, `acutely`.
+- [ ] **Zero pull-quote aphorisms**: Cut sentences that sound like inspirational LinkedIn posts or motivational posters.
+- [ ] **Zero dangling `-ing` tails**: Check sentence endings for shallow participles (`", highlighting..."`, `", proving..."`).
+- [ ] **Human agency**: Is every action driven by a person rather than an abstract concept?
+- [ ] **Rhythm**: Are sentence lengths varied without repetitive cadence or forced groups of three?
+
+---
+
 ## Specialized Generation Modes
 
 ### Mode A: Standard Single Activity Experience (Default)
@@ -104,15 +123,16 @@ Triggered when the user is working on a long-term (1+ month) collaborative **CAS
 
 ### Mode C: Level-Up & Polish Existing Draft
 Triggered when the user already wrote a draft and asks for feedback or revision.
-- Diagnoses weaknesses (e.g., dry laundry list, missing LO links, AI clichés).
-- Rewrites the reflection while retaining the user's authentic facts.
-- Explicitly highlights the improvements made.
+- Identifies and removes AI patterns (em-dashes, binary contrasts, fluff adverbs, buzzwords).
+- Rewrites the reflection to ground it in concrete student voice and specific micro-moments.
+- Integrates target Learning Outcomes seamlessly.
+- Summarizes the specific anti-slop improvements made.
 
 ---
 
 ## References & Resource Files
 
-* **[learning_outcomes_guide.md](references/learning_outcomes_guide.md)**: Exhaustive breakdown of all 7 IB Learning Outcomes with strong vs. weak evidence examples.
+* **[writing_style_and_vocabulary.md](references/writing_style_and_vocabulary.md)**: Exhaustive guide on authentic student voice, stop-slop structural fixes, banned vocabulary, and humanized LO phrasing formulas.
+* **[exemplars.md](references/exemplars.md)**: Four complete benchmark exemplars across Creativity, Activity, Service, and CAS Projects, fully scrubbed of AI patterns.
+* **[learning_outcomes_guide.md](references/learning_outcomes_guide.md)**: Breakdown of all 7 IB Learning Outcomes with strong vs. weak evidence criteria.
 * **[reflection_frameworks.md](references/reflection_frameworks.md)**: Gibbs' Reflective Cycle, Rolfe's *What? So What? Now What?*, Kolb's Experiential Cycle, and the 5 CAS Stages.
-* **[writing_style_and_vocabulary.md](references/writing_style_and_vocabulary.md)**: Authentic student voice, banned AI slop blacklist, sensory action verbs, and natural transition formulas.
-* **[exemplars.md](references/exemplars.md)**: Full-length benchmark exemplars across Creativity, Activity, Service, and multi-stage CAS Projects.
