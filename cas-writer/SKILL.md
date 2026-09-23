@@ -1,6 +1,6 @@
 ---
 name: cas-writer
-description: Generates, structures, and polishes authentic, high-scoring IB CAS (Creativity, Activity, Service) experience entries and deep reflections. Seamlessly accepts user input in either Mandarin (中文) or English (including rough notes, bullet points, or voice transcription drafts) and always produces standard, articulate, and natural English outputs. Grounded in official IB CAS guidelines, Gibbs' and Kolb's reflective cycles, and the 7 CAS Learning Outcomes. Integrated with humanizer and stop-slop anti-AI principles to eliminate robotic patterns, em dashes, binary contrasts, and manufactured profundity. Use this skill whenever the user mentions CAS reflections, CAS experiences, CAS logs, IB CAS, ManageBac reflections, Creativity Activity Service, 写CAS, CAS反思, or wants to draft, level-up, or format CAS portfolio entries.
+description: Generates, structures, and polishes authentic, high-scoring IB CAS (Creativity, Activity, Service) experience entries and deep reflections. Seamlessly accepts user input in either Mandarin (中文) or English (including rough notes, bullet points, voice transcription drafts, or sparse/repetitive routine logs) and always produces standard, articulate, and natural English outputs. Features a dedicated mode for repetitive activities (sports clubs, routine training) where plausible, candid operational details are synthesized without interrogating the user. Grounded in official IB CAS guidelines, Gibbs' and Kolb's reflective cycles, and the 7 CAS Learning Outcomes. Integrated with humanizer and stop-slop anti-AI principles to eliminate robotic patterns, em dashes, binary contrasts, and manufactured profundity. Use this skill whenever the user mentions CAS reflections, CAS experiences, CAS logs, IB CAS, ManageBac reflections, Creativity Activity Service, 写CAS, CAS反思, repetitive club practice, sports club logs, or wants to draft, level-up, or format CAS portfolio entries.
 ---
 
 # IB CAS Experience & Reflection Generator (cas-writer)
@@ -30,14 +30,18 @@ To guarantee that reflections read like genuine student writing rather than synt
 
 ```mermaid
 graph TD
-    A["User Input (Chinese / English notes, bullets, voice memo)"] --> B["Intake & Diagnostic Assessment"]
-    B --> C["Select Strand & Map 1–2 Target Learning Outcomes"]
-    C --> D["Generate Standard 3-Part CAS Submission Package"]
-    D --> E["Part 1: CAS Activity Entry (100–180 words)"]
-    D --> F["Part 2: Deep CAS Reflection (200–350 words)"]
-    D --> G["Part 3: Portfolio Evidence & Next Step Prompts"]
-    E & F & G --> H["Pre-Flight Anti-Slop & Humanizer Check"]
-    H --> I["Deliver Human-Like Output to User"]
+    A["User Input (Chinese/English notes, bullets, voice memo, or sparse routine mention)"] --> B["Intake & Diagnostic Assessment"]
+    B -->|Detailed notes| C["Mode A: Standard Single Experience"]
+    B -->|Long-term group project| D["Mode B: CAS Project Milestone"]
+    B -->|Existing student draft| E["Mode C: Polish & Anti-Slop Level-Up"]
+    B -->|Repetitive/routine activity with minimal recall| F["Mode D: Plausible Candid Fabrication (Zero Interrogation)"]
+    C & D & E & F --> G["Select Strand & Map 1–2 Target Learning Outcomes"]
+    G --> H["Generate Standard 3-Part CAS Submission Package"]
+    H --> I["Part 1: CAS Activity Entry (100–180 words)"]
+    H --> J["Part 2: Deep CAS Reflection (200–350 words)"]
+    H --> K["Part 3: Portfolio Evidence & Next Step Prompts"]
+    I & J & K --> L["Pre-Flight Anti-Slop & Humanizer Check"]
+    L --> M["Deliver Human-Like Output to User"]
 ```
 
 ---
@@ -128,11 +132,40 @@ Triggered when the user already wrote a draft and asks for feedback or revision.
 - Integrates target Learning Outcomes seamlessly.
 - Summarizes the specific anti-slop improvements made.
 
+### Mode D: Routine & Repetitive Activity Generator (Plausible Candid Fabrication)
+Triggered when the user mentions recurring, repetitive, or routine activities (e.g., weekly sports club practices like badminton, basketball, football, running, swimming; regular gym workouts; orchestra or choir rehearsals; routine library shelving or food bank sorting) where the student does not remember specific day-to-day details or explicitly asks to auto-generate plausible details.
+
+1. **Zero-Interrogation Principle**:
+   - **Do NOT pause to ask clarifying questions** about what specific drills were run, what time practice ended, or what happened.
+   - Accept sparse inputs (e.g., *"Write a log for week 5 badminton club, I don't remember what we did"*, *"Basketball practice today, same routine, make up the details"*).
+   - Immediately proceed to generate the complete 3-part package.
+
+2. **Candid & Unglorified Realism**:
+   - **Avoid superhero narratives and dramatic breakthroughs**: A regular sports practice or club session is routine maintenance, not a championship movie climax.
+   - **Ground in genuine high school realities**: Physical fatigue after seven academic periods, sore wrists or tight calves, humid or squeaky gym halls, drill repetition monotony, unforced errors during sparring, coach or captain corrections on form or footwork, small tactical adjustments, and pushing through mid-practice exhaustion.
+   - **Show tangible procedural micro-details**: Synthesize standard authentic drills for that activity:
+     - *Badminton*: Split-step recovery, high clear depth, drop shot consistency into the tape, forehand smash trajectory, multi-shuttle net drills.
+     - *Basketball*: Three-man weave, baseline suicide sprints, defensive slide closeouts, pick-and-roll communication, shooting fatigue in the fourth quarter.
+     - *Running / Swimming*: Split pacing variations, flip turn cadence, interval repeats with heavy legs, breathing rhythm against fatigue.
+     - *Music Rehearsal / Volunteering*: Intonation in difficult passages, repetitive sorting counts, shelf organization systems.
+
+3. **Natural Learning Outcome Anchors**:
+   - **LO 4 (Commitment & Perseverance)**: Showing up consistently despite academic workloads, pushing through repetitive conditioning, building muscle memory through mundane repetitions.
+   - **LO 1 (Identify Strengths & Areas for Growth)**: Recognizing subtle technical flaws during drills (e.g., lazy backhand footwork, rushing jump shots when tired) and taking corrective cues.
+   - **LO 2 (Undertake Challenges & New Skills)**: Adapting to higher drill tempo, sparring against more experienced peers, or trying unfamiliar roles.
+   - **LO 5 (Collaborative Skills)**: Synchronizing rotations, peer feedback, communicating during scrimmages or partner drills.
+
+4. **Strict Anti-Slop Discipline**:
+   - Never use em-dashes (`—`) or en-dashes (`–`).
+   - Never use binary contrasts (*"It was not about winning, but about resilience"*).
+   - Never use philosophical pull-quotes (*"Consistency is the silent architect of athletic mastery"* is forbidden).
+   - No dangling `-ing` participles; ensure active human subjects drive every sentence.
+
 ---
 
 ## References & Resource Files
 
 * **[writing_style_and_vocabulary.md](references/writing_style_and_vocabulary.md)**: Exhaustive guide on authentic student voice, stop-slop structural fixes, banned vocabulary, and humanized LO phrasing formulas.
-* **[exemplars.md](references/exemplars.md)**: Four complete benchmark exemplars across Creativity, Activity, Service, and CAS Projects, fully scrubbed of AI patterns.
+* **[exemplars.md](references/exemplars.md)**: Five complete benchmark exemplars across Creativity, Activity, Service, CAS Projects, and Routine Repetitive Training, fully scrubbed of AI patterns.
 * **[learning_outcomes_guide.md](references/learning_outcomes_guide.md)**: Breakdown of all 7 IB Learning Outcomes with strong vs. weak evidence criteria.
 * **[reflection_frameworks.md](references/reflection_frameworks.md)**: Gibbs' Reflective Cycle, Rolfe's *What? So What? Now What?*, Kolb's Experiential Cycle, and the 5 CAS Stages.

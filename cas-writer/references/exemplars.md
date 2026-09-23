@@ -112,3 +112,33 @@ This reference provides benchmark exemplar packages for each CAS strand (Creativ
   - 5-day cafeteria waste audit spreadsheet and weight summary chart.
   - The submitted 6-page Composting Feasibility Proposal document (PDF).
   - Meeting confirmation and email correspondence with the School Facilities Director.
+
+---
+
+## Exemplar 5: Activity (A): Weekly Badminton Club (Mode D: Repetitive Activity & Candid Fabrication)
+
+### Raw User Input (Mandarin - Minimal Recall)
+> "帮我写这周二羽毛球社的训练记录。每周活动都差不多，具体练了什么我已经记不太清了。直接帮我编一个真实自然的ManageBac记录和反思，不要假大空，真实一点。"
+
+### 1. CAS Activity Entry (ManageBac Log)
+* **Activity Title**: Weekly Badminton Club: Footwork Drills & Doubles Sparring
+* **Strand**: Activity
+* **Timeline / Duration**: Oct 22, 2024 (2 hours)
+* **Role / Responsibility**: Club Member / Regular Player
+* **Summary of Actions**:
+  Attended the weekly two-hour school badminton training session in the sports hall. Completed a 20-minute dynamic warm-up, followed by high clear drills, net tumbling practice, and corner-to-corner split-step footwork exercises. Partnered with a club peer for three doubles practice sets, focusing on court rotation and defensive coverage against backcourt smashes. Helped pack shuttlecock tubes and inspect court nets at the end of the session.
+* **Direct Deliverable**: Completed 2 hours of technical drills and played 3 doubles sparring sets.
+
+### 2. CAS Reflection
+> Walking into the sports hall after seven academic classes, my legs felt heavy before warm-ups even started. Our coach ran corner-to-corner split-step drills for thirty minutes. The main drill required us to recover back to center court immediately after clearing high to the baseline.
+>
+> During the drill, I kept lunging too late onto my right foot, which made my clears fall short around the mid-court line. Our coach stopped the drill to point out that I was dropping my racket head before striking (**LO 1: Identify strengths and areas for growth**). Once I kept my elbow higher and prepared my swing earlier, my clears reached deeper into the opposing backcourt.
+>
+> Later in our doubles scrimmage, physical fatigue set in during the third set. My smashes repeatedly caught the tape because I rushed my footwork and hit while still off-balance. Calling out baseline switches with my partner helped us stabilize our defense and finish the game (**LO 4: Show commitment and perseverance**). These weekly training sessions are repetitive, but noticing and fixing small habits like racket height builds reliable muscle memory.
+>
+> For next Tuesday, I will do five minutes of shoulder band mobility before drills start so my swing preparation feels looser from the first rally.
+
+* **Recommended Portfolio Evidence**:
+  - Photo of club training attendance sheet or court setup.
+  - Short video clip or photo of footwork drill / doubles rally.
+  - Club supervisor confirmation note.

@@ -155,3 +155,24 @@ Integrate Learning Outcomes naturally into the reflection without em-dashes, bin
 * **LO 7 (Ethics of Choices & Actions)**:
   * *"When photographing our community tutoring session, our team chose not to publish close-up photos of the children's faces, protecting their privacy on our public club page."*
   * *"We decided not to accept sponsorship from a local soda distributor for our sports day, keeping our event aligned with the health goals of our athletic club."*
+
+---
+
+## 7. Crafting Candid Realism for Routine & Repetitive Activities (Mode D)
+
+When generating reflections for repetitive commitments (weekly sports clubs, regular gym sessions, routine music rehearsals, library shelving), synthetic AI text frequently falls into two major traps:
+1. **The Heroic Fallacy**: Treating an ordinary Tuesday basketball drill like an Olympic gold medal breakthrough with life-altering philosophical revelations.
+2. **The Passive Whine**: Listing complaints about tiredness without student agency, corrective actions, or learning outcomes.
+
+To make routine reflections authentic and believable, adhere to these guidelines:
+
+### Realistic Details to Fabricate:
+* **Physical fatigue and mundane school conditions**: Heavy legs after a day of classes, humid school gym air, squeaky wooden floorboards, worn racket grip tape, sore calves.
+* **Specific procedural drill mechanics**: Name authentic drills (three-man weave, baseline suicides, split-step recovery, drop shot tumble into the tape, embouchure endurance on scale patterns, shelf classification checks).
+* **Unforced errors and coach or peer corrections**: Rushing a shot while off-balance, dropping a racket elbow, misjudging a bounce, getting called out by the captain for lazy defensive posture.
+* **Incremental, modest improvements**: Moving half a step faster, landing a clear deeper into the backcourt, finding breathing rhythm after kilometer 3.
+
+### Banned Tropes for Routine Activities:
+* *"Basketball is not just a sport, but a metaphor for life."* (Banned pseudo-profound quote and binary contrast).
+* *"Every drop of sweat forged an unbreakable bond of team unity."* (Banned melodrama).
+* *"This routine practice fundamentally shifted my worldview."* (Banned exaggeration and adverb).

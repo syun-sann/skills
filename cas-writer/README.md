@@ -30,6 +30,7 @@ You do not need to format your raw notes in any special way. You can provide:
 - **Mandarin (Chinese) or English bullet points**: Raw notes of what you did, difficulties faced, and how things went.
 - **Voice memo transcripts**: Conversational speech-to-text transcripts with pauses or informal phrasing.
 - **Draft reflections**: Existing entries that you want to polish, deepen, or align with specific Learning Outcomes.
+- **Sparse routine/repetitive prompts (Mode D)**: Minimal mentions for recurring commitments where you don't remember specific daily details (e.g., weekly sports clubs, gym workouts, routine library volunteering). The skill synthesizes plausible, candid details without interrogating you for missing facts.
 
 ### 3. Example Prompts
 
@@ -55,6 +56,12 @@ Write a CAS log and reflection for my 16km half-marathon training run.
 #### Example C: Polishing an Existing Draft
 ```
 Here is my current CAS reflection for tutoring at the local primary school. Please review it, remove any robotic or generic language, add realistic micro-details, and make sure it strongly hits LO 5 (Collaboration) and LO 7 (Ethics).
+```
+
+#### Example D: Auto-Generating Repetitive Club / Training Reflection with Minimal Recall (Mode D)
+```
+帮我写这周羽毛球社的日常训练记录和反思。
+每周二下午打球都差不多，这周的具体细节我记不清了，直接帮我编一个真实自然的训练反思，别太假，写得像真实的平时训练就行。
 ```
 
 ### 4. What the Skill Returns
