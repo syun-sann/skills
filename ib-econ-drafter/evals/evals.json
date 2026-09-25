@@ -1,0 +1,26 @@
+{
+  "skill_name": "ib-econ-drafter",
+  "evals": [
+    {
+      "id": 1,
+      "name": "paper2_4marker_exchange_rate",
+      "prompt": "Using an exchange rate diagram, explain how an increase in domestic interest rates by the central bank affects the value of the domestic currency under a floating exchange rate system.",
+      "expected_output": "Pre-draft setup prompt presented (or defaulted); Diagram Blueprint for floating exchange rate (Y: Price of Currency A in Currency B, X: Quantity of Currency A, Demand shifting right D1 to D2, ER1 to ER2 appreciation); step-by-step transmission mechanism (hot money inflows, higher financial returns for foreign investors, excess demand for currency leading to appreciation); concise length (100-150 words); strictly zero evaluation.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "paper1_10marker_indirect_tax",
+      "prompt": "Explain how the imposition of a specific indirect tax on a demerit good affects market equilibrium and government tax revenue.",
+      "expected_output": "Definitions of indirect tax and demerit good (AO1); Diagram blueprint showing vertical upward shift of S1 to S1+tax by specific tax t, P1/Q1 to Pc/Q2 with producer price Pp; detailed step-by-step transmission mechanism (AO2) covering cost of production increase, initial disequilibrium, consumer price rise, contraction in quantity demanded, and government tax revenue rectangle (Pc - Pp) * Q2; illustrative context; strictly zero evaluation or critique.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "unified_15marker_price_ceiling",
+      "prompt": "Evaluate the view that price ceilings (maximum prices) are the most effective government intervention for making essential goods affordable to low-income households.",
+      "expected_output": "Unified 15-mark essay structure: Introduction with definitions and thesis; Diagram blueprint showing Pmax below Pe, Qd > Qs shortage, and deadweight loss; PEEL+D Body Paragraph 1 analyzing affordability with canonical RWE (e.g. Berlin Mietendeckel or NYC rent stabilization); PEEL+D Body Paragraph 2 analyzing unintended shortages, black markets, and misallocation; CLASSPP evaluation analyzing short-run vs long-run effects, stakeholder impacts, and trade-offs; 3-step substantiated conclusion with complementary policy synthesis (e.g. direct income transfers or supply-side public housing); Examiner diagnostic checklist.",
+      "files": []
+    }
+  ]
+}
