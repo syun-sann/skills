@@ -1,0 +1,82 @@
+[
+  {
+    "query": "我正在准备下周的IB中文A Paper 2模拟考，我选的作品是余华的《活着》和古华《芙蓉镇》，想写关于‘苦难中的希望’，你能帮我按照8段式结构拟定总论点和分论点吗？",
+    "should_trigger": true
+  },
+  {
+    "query": "老师给了一道试卷二的真题：‘请比较作者如何运用象征手法来表达对社会现实的批判’。我想用鲁迅的《药》和曹禺的《雷雨》，请帮我写出完整比较分析。",
+    "should_trigger": true
+  },
+  {
+    "query": "这里有一篇IB中文卷一的散文选段，引导题是：作者是如何通过叙述视角的转换来构建叙述者与回忆对象之间的距离感的？请帮我提炼三个互斥分论点并写出分析。",
+    "should_trigger": true
+  },
+  {
+    "query": "请用paper1-drafter帮我批改一下我的IB中文A卷一初稿，特别是第5段辩证段，老师说我批评得脱离文本了。",
+    "should_trigger": true
+  },
+  {
+    "query": "我想写一篇比较论文，分析《玩偶之家》里的娜拉出走和《雷雨》里繁漪的反抗，如何体现女性在家庭压迫下的不同抗争道路。",
+    "should_trigger": true
+  },
+  {
+    "query": "请帮我为这篇IB中文非文学评论写一个符合评分标准A-D的六段式学术评论大纲，文本讨论的是社交媒体算法对青年心理的影响。",
+    "should_trigger": true
+  },
+  {
+    "query": "请问IB DP 语言A文学卷二的评分标准B2（比较分析）怎么才能拿到5分满分？两部作品的对比段应该怎么写才不会变成两张皮并列？",
+    "should_trigger": true
+  },
+  {
+    "query": "我手里有古华《芙蓉镇》和余华《活着》两部作品，题目问‘比较作者如何表现人性的善恶冲突’，可以直接帮我生成一篇1400字的试卷二范文吗？",
+    "should_trigger": true
+  },
+  {
+    "query": "在IB中文A Paper 1中，如何提炼出互不重叠的三维互斥分论点？可以举一个具体散文的例子说明吗？",
+    "should_trigger": true
+  },
+  {
+    "query": "我要写IB中文文学A的Paper 2，比较加缪的《局外人》和鲁迅的《狂人日记》在‘荒谬感与清醒的反抗’上的异同，需要标准的八段式框架。",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我用高中语文作文的格式写一篇关于‘诚信’的议论文，大约800字，需要举商鞅立木和列宁认错的例子。",
+    "should_trigger": false
+  },
+  {
+    "query": "Please help me write an AP English Literature Paper on Hamlet and Oedipus Rex comparing tragic flaw and hamartia.",
+    "should_trigger": false
+  },
+  {
+    "query": "你能帮我总结一下余华《活着》的全书章节梗概和福贵身边亲人的死亡顺序吗？我做读书笔记用。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想写一篇关于古华《芙蓉镇》电影版和小说版改编差异的5000字大学本科毕业论文开题报告。",
+    "should_trigger": false
+  },
+  {
+    "query": "请帮我润色一下这篇中文的CAS活动反思日志，主要是关于我们在敬老院做志愿者的经历。",
+    "should_trigger": false
+  },
+  {
+    "query": "请帮我校对这篇Word文档中的错别字和标点符号，并将标题样式改为三号黑体加粗。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想用Python写一个自动化爬虫，把豆瓣读书上关于《活着》的所有短评抓取下来并做词云分析。",
+    "should_trigger": false
+  },
+  {
+    "query": "请根据这篇IB经济学Paper 1的10分题‘Explain how negative externalities of consumption lead to market failure’写出答案。",
+    "should_trigger": false
+  },
+  {
+    "query": "请帮我写一封推荐信，推荐我的学生去申请香港大学的中文系本科。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想了解余华和莫言这两位作家的生平经历、出生年份和他们获得过哪些国际文学奖项。",
+    "should_trigger": false
+  }
+]
