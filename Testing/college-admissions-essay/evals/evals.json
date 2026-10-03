@@ -1,0 +1,44 @@
+{
+  "skill_name": "college-admissions-essay",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Here is my draft for my UCAS personal statement for Economics. My school counselor left a comment on paragraph 2 saying: '比如你可以写你在高中创办了投资俱乐部，通过模拟盘带领社员赚了30%的收益，这样更具象，更能体现你的商业头脑'. Please help me review and revise it:\n\nDraft:\nEconomics first caught my attention when inflation spiked after the pandemic. I wanted to understand how central banks make decisions. I read The Wealth of Nations by Adam Smith and learned about the invisible hand and market equilibrium, which was very inspiring. In school, I organized a debate on fiscal stimulus during macroeconomic downturns. However, my counselor suggested I need more concrete achievements in finance. Outside classes, I play varsity basketball and serve as student council treasurer, which taught me discipline and team coordination.",
+      "expected_output": "The skill autonomously identifies the application as UK UCAS Personal Statement for Economics, notes the official 4,000-character/47-line limit and the British admissions lens (80% supercurricular analysis vs. 20% transferable skills, subject-tutor audience). In Phase 1 Grilling Frontier, it flags the counselor's 30% investment club suggestion as an inspirational proposal rather than a confirmed student fact, grills the student on whether they actually experienced this or have a real alternative, pushes for critical engagement with economic theory rather than passive book-name dropping, and pauses for student input before generating Phase 2.",
+      "files": [],
+      "expectations": [
+        "Identifies system as UK UCAS Personal Statement and notes the official 4,000-character and 47-line constraints",
+        "Applies the British admissions lens emphasizing supercurricular academic inquiry over dramatic narrative or resume padding",
+        "Recognizes counselor's suggestion as an inspirational proposal and refuses to adopt unverified 30% profit claims as fact",
+        "Produces Phase 1 Grilling Frontier with numbered questions containing recommended options, alternatives, and write-in choices",
+        "Pauses execution at Phase 1 waiting for student input without prematurely outputting Phase 2 revised text"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I wrote this essay for UBC's personal profile: 'Explain how you responded to a significant challenge. What did you learn and how have you prepared yourself for university?'. I'm not sure about the exact word limit or what UBC is looking for. Please review and revise it:\n\nDraft:\nWhen our high school robotics club lost our main faculty sponsor two weeks before the regional qualifier, the team was in panic. Several members wanted to drop out because our pneumatic lift mechanism was still jamming during autonomous mode. As the team captain, I called an emergency meeting and reorganized our remaining tasks. I assigned two junior members to assist me in disassembling the piston valves while another pair recoded the sensor threshold in Python. We stayed after school for four days testing thirty different pressure cycles until the lift reliably deployed ten out of ten times. At the competition, our robot advanced to the semifinals. This experience made me realize that engineering is not just about writing clean code or assembling hardware, but about staying calm under uncertainty and helping teammates communicate clearly when problems arise. I feel this will help me when I enter UBC's engineering program.",
+      "expected_output": "The skill autonomously searches or identifies UBC Personal Profile requirements, verifying the strict 200-word limit per module and UBC's core rubric (Leadership, Problem-Solving, Diversity of Experience, Authentic Voice). It diagnoses word count (current draft is ~180 words, nearing the 200-word ceiling), detects AI-style binary contrasts ('not just about X, but about Y'), checks operational details, and outputs Phase 1 Grilling Frontier questions with recommended options and write-in choices.",
+      "files": [],
+      "expectations": [
+        "Autonomously identifies or searches official UBC Personal Profile criteria, confirming the 200-word limit",
+        "Outlines UBC's broad-based evaluation lens (substance, leadership, voice, problem-solving)",
+        "Diagnoses the draft for word economy and flags stylistic improvements (e.g. removing binary contrast clichés)",
+        "Formats output strictly as Phase 1 Grilling Frontier with recommended options and write-in choices",
+        "Pauses execution at Phase 1 waiting for student alignment before generating Phase 2"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I'm applying to Columbia University for Computer Science. Here is my rough draft for the supplemental essay on why Columbia. I don't know the exact current word count limit. Please review and elevate it:\n\nDraft:\nColumbia University has always been my dream school because of its prestigious Ivy League reputation and prime location in New York City. The city provides endless internship opportunities at major tech companies on Wall Street and Silicon Alley. Furthermore, I am deeply impressed by Columbia's world-class faculty and state-of-the-art computer science laboratories. I hope to participate in undergraduate research in artificial intelligence. Outside the classroom, I look forward to exploring Manhattan's museums and joining student cultural clubs. Studying at Columbia will enable me to become a well-rounded software engineer and global citizen.",
+      "expected_output": "The skill autonomously identifies the essay as Columbia University's undergraduate supplemental essay ('Why Columbia' / school-specific interest for Columbia College / Columbia SEAS), verifies the official 200-word limit and admissions rubric. It diagnoses that the draft suffers from generic praise (rankings, NYC internships, generic AI labs) that could apply to any NYC school. It initiates Phase 1 Grilling Frontier to identify specific Columbia curriculum elements (e.g. SEAS Art of Engineering, specific CS labs like DSI or robotics, specific professors) and aligns with the student's real background.",
+      "files": [],
+      "expectations": [
+        "Autonomously searches or identifies Columbia undergraduate supplemental essay specifications and confirms the 200-word limit",
+        "Diagnoses severe 'generic school praise' syndrome (NYC location, Ivy reputation, vague AI claims)",
+        "Provides official admissions lens emphasizing authentic curricular fit and intellectual intentionality",
+        "Formulates Phase 1 Grilling Frontier questions with concrete recommended course/research angles and student write-in options",
+        "Pauses execution at Phase 1 waiting for student input without prematurely outputting Phase 2 revised text"
+      ]
+    }
+  ]
+}
