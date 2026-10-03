@@ -12,7 +12,5 @@ To install these skills in your local AI agent configuration:
    git clone https://github.com/syun-sann/skills.git
    ```
 
-2. Copy the desired skill directories into your environment's skills folder:
-   - **Google Antigravity**: `~/.gemini/config/skills/`
-   - **Claude Code**: `~/.claude/skills/` (or `.claude/skills/` within a project)
+2. Copy the desired skill directories into your environment's skills folder.
 
