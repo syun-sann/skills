@@ -4,13 +4,13 @@ This guide defines the diagnostic standards, editing principles, anti-hallucinat
 
 ---
 
-## 1. Factual Integrity & Zero-Fabrication Mandate (绝对保真原则)
+## 1. Factual Integrity & Authentic Experience Mandate (绝对保真原则)
 
 ### The Core Rule
-Admissions essays represent the student's authentic lived experience and ethical character. **Under no circumstance may the consultant or model invent, fabricate, exaggerate, or assume facts, metrics, awards, roles, or personal anecdotes not present in the student's draft or notes.**
+Admissions essays represent the student's authentic lived experience and ethical character. **Keep all content strictly grounded in reality: avoid assuming, inventing, or exaggerating facts, metrics, awards, roles, or personal anecdotes not provided in the student's draft or notes.**
 
 ### Operational Rules for Missing Information
-1. **Never Invent Data:** If the student writes *"we raised money for the shelter"*, DO NOT arbitrarily write *"we raised $3,500 for the city dog shelter"*.
+1. **Rely Exclusively on Confirmed Facts:** If the student writes *"we raised money for the shelter"*, do not assume or insert numbers like *"we raised $3,500 for the city dog shelter"*.
 2. **Flag and Inquire:** In Part 1 of the output (*修改状态与追问清单*), explicitly list every question needed to fill narrative or quantitative voids.
 3. **Use Explicit Placeholders in Polished Text:** If a missing detail is required to maintain grammatical and logical flow, use bracketed placeholders such as `[具体金额/参与人数需确认]` or `[插上某种实验仪器的具体名称]`, ensuring the student knows exactly what to substitute.
 
