@@ -5,5 +5,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-
+# Workspace memory and snapshot backups
+MEMORY.md
+.backup/
+backup/
